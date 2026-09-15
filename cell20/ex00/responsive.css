@@ -1,0 +1,18 @@
+table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: auto;
+        }
+ th, td {
+            border: 1px solid black;
+            height: 10rem;
+        }
+th {
+            text-align: left;
+        }
+.color1 {
+            background-color: rgba(74, 190, 74, 0.596);
+        }
+.color2 {
+            background-color: lightgray;
+        }
