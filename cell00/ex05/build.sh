@@ -9,4 +9,4 @@ else
     do
         mkdir ex$var
     done
-if
+fi
