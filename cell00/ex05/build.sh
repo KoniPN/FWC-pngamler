@@ -1,12 +1,12 @@
 #!/bin/bash
-for var in "$@"
-do
-    if [ -z "$var" ]
-    then
-        echo "No arguments supplied."
-        exit 1
-    
-    else
+
+if [ -z "$var" ]
+then
+    echo "No arguments supplied."
+    exit 1
+else
+    for var in "$@"
+    do
         mkdir ex$var
-    fi
-done
+    done
+if
