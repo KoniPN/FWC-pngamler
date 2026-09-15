@@ -1,5 +1,12 @@
 #!/bin/bash
 
-echo number
+if [ -z "$var" ]
+then
+    echo "No arguments supplied."
+    exit 1
+fi
 
-mkdir ex$number
+for var in "$@"
+do
+    mkdir ex$var
+done
